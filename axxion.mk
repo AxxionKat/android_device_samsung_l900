@@ -12,7 +12,7 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/axxion/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/l900/full_l900.mk)
+$(call inherit-product, device/samsung/l900/axxion_l900.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := l900
