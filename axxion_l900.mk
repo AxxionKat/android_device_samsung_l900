@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/l900/l900.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_l900
+PRODUCT_NAME := axxion_l900
 PRODUCT_DEVICE := l900
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
